@@ -1,0 +1,21 @@
+{
+  "name": "bootstrap-boilerplate",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "gulp",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Mahdi Afzal <mahdiafzal@gmail.com> (https://github.com/mahdiafzal)",
+  "devDependencies": {
+    "browser-sync": "^2.18.7",
+    "gulp": "^3.9.1",
+    "gulp-sass": "^3.1.0",
+    "gulp-sourcemaps": "^2.4.1"
+  },
+  "dependencies": {
+    "bootstrap": "^3.3.7"
+  }
+}
