@@ -14,13 +14,10 @@
     $ cd bootstrap-boilerplate
     ```
 
-3. Run `npm install` command, it will install dependencies:
-    ```
-    $ npm install
-    ```
+3. It will install dependencies: <br />
+    Install with npm:  ``` $ npm install ``` <br />
+    Install with yarn: ``` $ yarn ```
 
-4. Run `npm start` command, it will run project:
-    ```
-    $ npm start
-    ```
-
+4. It will run project: <br />
+    Run with npm:  ``` $ npm  start ``` <br />
+    Run with yarn: ``` $ yarn start ```
