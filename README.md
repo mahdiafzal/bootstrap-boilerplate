@@ -35,4 +35,9 @@
     <link rel="stylesheet" href="./fonts/font-fa.css" />
     ```
 
-3- Change `lang` attribute in `<html>` tag.
+3- Delete or Comment line of under in `index.html` in `docs` folder. <br />
+    ```
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.2.1/css/bootstrap.min.css">
+    ```
+
+4- Change `lang` attribute in `<html>` tag.
