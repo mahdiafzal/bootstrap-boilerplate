@@ -1,5 +1,5 @@
 {
-  "name": "bootstrap-boilerplate",
+  "name": "crowlaw-template",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -10,12 +10,9 @@
   "keywords": [],
   "author": "Mahdi Afzal <mahdiafzal@gmail.com> (https://github.com/mahdiafzal)",
   "devDependencies": {
-    "browser-sync": "^2.18.7",
-    "gulp": "^3.9.1",
-    "gulp-sass": "^3.1.0",
-    "gulp-sourcemaps": "^2.4.1"
-  },
-  "dependencies": {
-    "bootstrap": "^3.3.7"
+    "browser-sync": "^2.26.3",
+    "gulp": "^4.0.0",
+    "gulp-sass": "^4.0.2",
+    "gulp-sourcemaps": "^2.6.4"
   }
 }
