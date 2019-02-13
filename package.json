@@ -1,17 +1,27 @@
 {
   "name": "crowlaw-template",
-  "version": "1.0.0",
+  "version": "1.2.0",
   "description": "",
   "main": "index.js",
   "scripts": {
     "start": "gulp",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
+  "keywords": [
+    "bootstrap",
+    "bootstrap 4",
+    "bootstrap-rtl",
+    "scss"
+  ],
   "author": "Mahdi Afzal <mahdiafzal@gmail.com> (https://github.com/mahdiafzal)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mahdiafzal/bootstrap-boilerplate/issues"
+  },
+  "homepage": "https://mahdiafzal.github.io/bootstrap-boilerplate",
   "devDependencies": {
     "browser-sync": "^2.26.3",
-    "gulp": "^4.0.0",
+    "gulp": "^3.9.1",
     "gulp-sass": "^4.0.2",
     "gulp-sourcemaps": "^2.6.4"
   }
