@@ -27,7 +27,7 @@ gulp.task('sass', function () {
 
 // minify css (merge + autoprefix + rename)
 gulp.task('minify-css', function () {
-  return gulp.src('./docs/css/style.css')
+  return gulp.src('./docs/css/styles.css')
     .pipe(minifyCss())
     // autoprefixer
     .pipe(autoprefixer({
@@ -35,12 +35,12 @@ gulp.task('minify-css', function () {
       cascade: false
     }))
     // minify output directory
-    .pipe(rename('style.min.css'))
+    .pipe(rename('styles.min.css'))
     .pipe(gulp.dest('./docs/css'))
     // browser sync
     .pipe(browserSync.reload({ stream: true })),
     // watch file
-    gulp.watch('./docs/css/style.css', ['minify-css']);
+    gulp.watch('./docs/css/styles.css', ['minify-css']);
 });
 
 
@@ -52,7 +52,15 @@ gulp.task('browser-sync', function () {
     }
   });
   // watch html
-  gulp.watch('./*.html').on('change', browserSync.reload);
+  gulp.watch([
+    './docs/css/*',
+    './docs/dummy/*',
+    './docs/favicons/*',
+    './docs/fonts/*',
+    './docs/images/*',
+    './docs/js/*',
+    './docs/*',
+  ]).on('change', browserSync.reload);
 });
 
 // gulp default (sass, minify-css, browser-sync) method
